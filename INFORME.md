@@ -1,14 +1,16 @@
-MATERIALES
-· 2 LEDs
-· ESP32
-· 2 resistencias de 470ohms
+# Práctica 4: ejercicio 1
 
-Presentación:
+## MATERIALES
+- 2 LEDs
+- ESP32
+- 2 resistencias de 470ohms
+
+## Presentación:
 En esta práctica aprendemos a crear tareas para poder utilizar diferentes cores de manera que todo vaya más rápido y usemos 
 mejor el ESP32. A la pregunta, ¿qué sucede si está utilizando una pantalla de tinta electrónica que tarda unos segundos en actualizarse?
 Pues que tardará mucho más y posiblemente se solape.
 
-Explicación del código:
+## Explicación del código(con comentarios que explican el funcionamiento línea a línea):
 
 ```
 #include <Arduino.h>
@@ -95,4 +97,4 @@ void loop(){
 }
 
 ```
-En el video se ven las salidas: podemos ver como un LED se enciende y apaga durante un rato, y el otro solo se enciende una vez.
+En el vídeo se ven las salidas: podemos ver como un LED se enciende y apaga durante un rato, y el otro solo se enciende una vez.
