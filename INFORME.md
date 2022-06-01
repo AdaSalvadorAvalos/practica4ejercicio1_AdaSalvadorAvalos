@@ -10,7 +10,7 @@ Pues que tardará mucho más y posiblemente se solape.
 
 Explicación del código:
 
-´´´
+```
 #include <Arduino.h>
 
 const int led1 = 16; // Pin LED
@@ -94,5 +94,5 @@ void loop(){
 
 }
 
-´´´
+```
 En el video se ven las salidas: podemos ver como un LED se enciende y apaga durante un rato, y el otro solo se enciende una vez.
